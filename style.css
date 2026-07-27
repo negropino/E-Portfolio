@@ -719,6 +719,16 @@ left = 80vw
         width:100%;
         padding: 25px 72px 40px;
     }
+    .project__description--title {
+
+    }
+    .project__description--sub-title {
+        margin-bottom: 8px;
+
+    }
+    .project__description--para {
+
+    }
 }
 
 /* Small Phones */
@@ -736,19 +746,39 @@ left = 80vw
     .nav__link:first-child {
         display:none;
     }
-    .project__descripiton--para {
+    .project__description--title {
+        font-size: 20px;
+    }
+    .project__description--sub-title {
+        margin-bottom: 8px;
+        font-size: 10px;
+    }
+    .project__description--para {
         display:none;
     }
-    .project__decription {
+    .project__description {
         left: 0;
         padding: 0;
         width: 100%;
         text-align: center;
     }
-    .project__description--sub-title {
-        margin-bottom: 8px;
-    }
     .modal__half {
         padding: 40px;
     }
+    .shape {
+        visibility: hidden;
+    }
+    
 }
+
+ /* .project__description--title {
+    font-size: 40px;
+ }
+
+ .project__description--sub-title {
+    margin-top: 8px;
+ }
+
+ .project__description--para {
+    margin: 16px 0;
+ } */
